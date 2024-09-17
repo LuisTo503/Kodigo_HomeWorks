@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Empleado</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Empleado</h1>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" />
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" />
+        </div>
+        <div>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" />
+        </div>
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" />
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" />
+        </div>
+        <div>
+            <label for="sueldo">Sueldo Inicial:</label>
+            <input type="number" id="sueldo" step="0.01" />
+        </div>
+        <button id="crear-empleado-btn">Crear Empleado</button>
+        <pre id="resultado"></pre>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

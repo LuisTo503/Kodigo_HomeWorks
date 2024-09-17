@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Cuenta</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Cuenta de Ahorros</h1>
+        <div>
+            <label for="monto-deposito">Monto a Depositar:</label>
+            <input type="number" id="monto-deposito" step="0.01" />
+            <button id="depositar-btn">Depositar</button>
+        </div>
+        <div>
+            <label for="monto-retiro">Monto a Retirar:</label>
+            <input type="number" id="monto-retiro" step="0.01" />
+            <button id="retirar-btn">Retirar</button>
+        </div>
+        <button id="mostrar-datos-btn">Mostrar Datos de la Cuenta</button>
+        <pre id="resultado"></pre>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

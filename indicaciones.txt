@@ -1,0 +1,30 @@
+Build de TypeScript
+
+1. Instalar Node.js
+2. Instalar TypeScript
+3. Crear un proyecto nuevo con `tsc --init` y configurar el archivo `
+4. Crear un archivo `index.ts` con el código de la aplicación
+5. Compilar el código con `tsc index.ts` y ejecutarlo con `node
+
+Opcion con Vite
+
+1.  Abrir la Terminal:
+2.  Crear carpeta del proyecto o navegar a la carpeta del proyecto destino
+3.  revisar la version de Node instaldo:
+    $ node --version
+4.  Crear proyecto con Vite:
+    $ npm create vite   
+    $  -tambien- npm create vite@lastest Project-app --template vanilla-ts
+    ? Project name: > example
+    ? Select a framework: >
+    ? vanilla <- enter
+        > vanilla-ts <- enter
+        Scaffolding project in ruta/home/Luis/Desktop/x
+        Done. Now run:
+            cd 'nombre del proyecto'
+            npm install
+            npm run dev
+            npm run build 
+
+
+
